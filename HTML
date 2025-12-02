@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Paws Animal Shelter</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+        header {
+            background: #ffb74d;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #4e342e;
+        }
+        nav {
+            background: #ffcc80;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4e342e;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://placekitten.com/1200/500') center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            font-size: 2rem;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2rem;
+            color: #6d4c41;
+        }
+        .pets {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .pet-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .pet-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #ffb74d;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Little Paws Animal Shelter</h1>
+        <p>Helping furry friends find loving homes ❤️</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#adopt">Adopt</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        Find Your New Best Friend
+    </div>
+
+    <div class="container" id="about">
+        <h2 class="section-title">About Us</h2>
+        <p>
+            Little Paws Animal Shelter is dedicated to rescuing, rehabilitating, and rehoming 
+            animals in need. We are a no-kill shelter that believes every animal deserves love, 
+            care, and a forever home.
+        </p>
+    </div>
+
+    <div class="container" id="adopt">
+        <h2 class="section-title">Pets Available for Adoption</h2>
+        <div class="pets">
+            <div class="pet-card">
+                <img src="https://placekitten.com/300/220" alt="Cat">
+                <h3>Luna</h3>
+                <p>2-year-old playful cat who loves cuddles.</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://placedog.net/300/220" alt="Dog">
+                <h3>Buddy</h3>
+                <p>Friendly 3-year-old dog who enjoys walks.</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://placekitten.com/301/220" alt="Cat">
+                <h3>Milo</h3>
+                <p>A curious kitten full of energy and love.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="donate">
+        <h2 class="section-title">Support Our Mission</h2>
+        <p>
+            Your donations help us provide food, shelter, and medical care for our animals.
+            Thank you for helping us make a difference!
+        </p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Email: contact@littlepaws.org</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Furry Lane, Petville</p>
+    </div>
+
+    <div class="footer">
+        © 2025 Little Paws Animal Shelter | All Rights Reserved
+    </div>
+
+</body>
+</html>
 
